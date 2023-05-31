@@ -7,6 +7,8 @@ authors = ["mavhungutrezzy <mavhungutrezzy@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 fastapi = "^0.67.0"
+fastapi-users = {extras = ["sqlalchemy"], version = "^11.0.0"}
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
